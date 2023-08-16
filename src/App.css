@@ -1,10 +1,47 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
   padding: 2rem;
   text-align: center;
 }
+/* Improved Layout & Typography */
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  margin: 2em;
+}
 
+/* Enhance Input Box */
+.input-box:focus {
+  border-color: blue;
+}
+
+/* Style Buttons */
+button {
+  background-color: orange;
+  color: orange;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+button:hover {
+  background-color: darkblue;
+}
+
+/* Add Responsive Design */
+@media only screen and (max-width: 600px) {
+  .input-box {
+    width: 100%;
+  }
+  
+  .navbar a {
+    display: block;
+  }
+}
 .logo {
   height: 6em;
   padding: 1.5em;
