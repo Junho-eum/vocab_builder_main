@@ -311,7 +311,7 @@ function Day7vocab() {
           ></div>
         </div>
       </div>
-      <h1>DAY 01</h1>
+      <h3>DAY 01</h3>
       <div className="sentence">
         {currentWord ? (
           <>
