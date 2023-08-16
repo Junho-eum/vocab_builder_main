@@ -249,7 +249,7 @@ function Day6vocab() {
           ></div>
         </div>
       </div>
-      <h1>DAY 02</h1>
+      <h3>DAY 02</h3>
       <div className="sentence">
         {currentWord ? (
           <>
