@@ -1,0 +1,44 @@
+.synonym-cards {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.synonym-card {
+  width: 100px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 5px;
+  border: 1px solid black;
+  cursor: pointer;
+  background-color: black; /* Starting with black background */
+  color: white; /* Make sure the text is readable on a black background */
+  transition: background-color 0.5s ease; /* Transition effect */
+}
+
+.synonym-card.correct {
+  background-color: limegreen; /* Bright green color when correct */
+}
+
+.synonym-card.incorrect {
+  background-color: red; /* Red color when incorrect */
+}
+
+@keyframes fadeIn {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: limegreen;
+  }
+}
+
+@keyframes fadeRed {
+  from {
+    background-color: black;
+  }
+  to {
+    background-color: red;
+  }
+}
