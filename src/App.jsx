@@ -258,7 +258,7 @@ const getRandomSynonyms = (correctSynonyms) => {
             ></div>
           </div>
         </div>
-        <h1>Basic 06 - Magoosh</h1>
+        <h3>Basic 06 - Magoosh</h3>
         <div className="sentence">
           {currentWord ? (
             <>
