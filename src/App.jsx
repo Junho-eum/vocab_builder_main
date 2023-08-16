@@ -235,10 +235,10 @@ const getRandomSynonyms = (correctSynonyms) => {
     <Router>
       <div className="App">
         <nav className="navbar">
+          <Link to="/day7">Day 1</Link>
+          <Link to="/day6">Day 2</Link>
+          <Link to="/day5">Day 3</Link>
           <Link to="/day4">Day 4</Link>
-          <Link to="/day5">Day 5</Link>
-          <Link to="/day6">Day 6</Link>
-          <Link to="/day7">Day 7</Link>
         </nav>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div className="progress-container">
