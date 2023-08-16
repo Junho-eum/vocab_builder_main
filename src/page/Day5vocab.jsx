@@ -291,7 +291,7 @@ const getRandomSynonyms = (correctSynonyms) => {
           ></div>
         </div>
       </div>
-      <h1>DAY 05</h1>
+      <h3>DAY 05</h3>
       <div className="sentence">
         {currentWord ? (
           <>
