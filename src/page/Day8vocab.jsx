@@ -11,7 +11,7 @@ const BlankSentences = {
     synonyms: ["distant", "detached"],
   },
   chimera: {
-    semtence: "Is this great love of hers merely a chimera?",
+    semtence: "This great love of hers is merely a chimera",
     synonyms: ["illusion", "delusion"],
   },
   choleric: {
