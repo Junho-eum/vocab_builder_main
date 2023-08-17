@@ -6,10 +6,6 @@ import anime from "animejs/lib/anime.es.js";
 //Add Synonym picker to the game
 
 const BlankSentences = {
-  aberrant: {
-    sentence: "his rages and aberrant behavior worsened",
-    synonyms: ["deviant", "unusual"],
-  },
   blithe: {
     sentence: "a blithe disregard for the rules of the road",
     synonyms: ["carefree", "cheerful"],
@@ -106,11 +102,11 @@ const BlankSentences = {
     sentence: "The buccaneers who roamed the Spanish Main.",
     synonyms: ["pirate", "raider"],
   },
-  buffonery: {
+  buffoonery: {
     sentence: "The buffoonery of the clown",
     synonyms: ["foolishness", "silliness"],
   },
-  ariscrat: {
+  aristocrats: {
     sentence: "The aristocrats of the film industry",
     synonyms: ["noble", "upper class"],
   },
