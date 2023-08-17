@@ -6,10 +6,6 @@ import anime from "animejs/lib/anime.es.js";
 //Add Synonym picker to the game
 
 const BlankSentences = {
-  aberrant: {
-    sentence: "his rages and aberrant behavior worsened",
-    synonyms: ["deviant", "unusual"],
-  },
   chagrin: {
     sentence: "to her chagrin, he didn't remember her at all",
     synonyms: ["annoyance", "displeasure"],
@@ -74,7 +70,7 @@ const BlankSentences = {
     sentence: "a broken and a contrite heart",
     synonyms: ["remorseful", "penitent"],
   },
-  conjour: {
+  conjure: {
     sentence: "he hoped to conjure away the demons of disease and poverty",
     synonyms: ["invoke", "summon"],
   },
@@ -90,7 +86,7 @@ const BlankSentences = {
     sentence: "we sweltered in the scorching sun",
     synonyms: ["sweat", "suffocate"],
   },
-  presumtous: {
+  presumptuous: {
     sentence: "I hope I won't be considered presumptuous if I offer some advice",
     synonyms: ["arrogant", "overconfident"],
   },
