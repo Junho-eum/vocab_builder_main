@@ -105,7 +105,7 @@ const BlankSentences = {
   },
   attenuate: {
     sentence:
-      "Her animosiy towards Bob atenuated over the years, and she even went so far as to invite him to her party.",
+      "Her animosiy towards Bob attenuated over the years, and she even went so far as to invite him to her party.",
     synonyms: ["약화시키다", "taper off"],
   },
   contemptuous: {
