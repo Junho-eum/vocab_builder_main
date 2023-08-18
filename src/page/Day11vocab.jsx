@@ -91,7 +91,7 @@ const BlankSentences = {
     sentence:"The clowns antic act was too extreme for the youngest children, who left the room in tears",
     synonyms: ["이상한", "기괴한"],
   },
-  revenous: {
+  ravenous: {
     sentence: "After the long hike, the hikers were ravenous and ate everything in sight.",
     synonyms: ["굶주린", "허기진"],
   },
