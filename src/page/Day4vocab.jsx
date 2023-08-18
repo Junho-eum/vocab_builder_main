@@ -48,7 +48,6 @@ const BlankSentences = {
   },
 };
 
-
 function Day4vocab() {
   const [correctAnswer, setCorrectAnswer] = useState(false);
   const [incorrectAnswer, setIncorrectAnswer] = useState(false); // Added
@@ -62,7 +61,6 @@ function Day4vocab() {
   const [selectedSynonyms, setSelectedSynonyms] = useState([]); // New state
   const [remainingKeys, setRemainingKeys] = useState(initialShuffledKeys);
 
-  
   // Shuffle the keys of BlankSentences
   const shuffledKeys = Object.keys(BlankSentences).sort(
     () => Math.random() - 0.5
@@ -75,21 +73,20 @@ function Day4vocab() {
       );
     }
   }, [currentWord]);
-const getRandomSynonyms = (correctSynonyms) => {
-  const allSynonyms = Object.values(BlankSentences).flatMap(
-    (word) => word.synonyms
-  );
-  const incorrectSynonyms = allSynonyms.filter(
-    (synonym) => !correctSynonyms.includes(synonym)
-  );
-  const selectedIncorrect = incorrectSynonyms
-    .sort(() => 0.5 - Math.random())
-    .slice(0, 10 - correctSynonyms.length); // Make sure to select enough incorrect synonyms
-  return [...selectedIncorrect, ...correctSynonyms].sort(
-    () => 0.5 - Math.random()
-  );
-};
-
+  const getRandomSynonyms = (correctSynonyms) => {
+    const allSynonyms = Object.values(BlankSentences).flatMap(
+      (word) => word.synonyms
+    );
+    const incorrectSynonyms = allSynonyms.filter(
+      (synonym) => !correctSynonyms.includes(synonym)
+    );
+    const selectedIncorrect = incorrectSynonyms
+      .sort(() => 0.5 - Math.random())
+      .slice(0, 10 - correctSynonyms.length); // Make sure to select enough incorrect synonyms
+    return [...selectedIncorrect, ...correctSynonyms].sort(
+      () => 0.5 - Math.random()
+    );
+  };
 
   const handleCorrectSelection = (synonym) => {
     if (BlankSentences[currentWord].synonyms.includes(synonym)) {
@@ -120,9 +117,9 @@ const getRandomSynonyms = (correctSynonyms) => {
         setStreakCount(0); // Reset streak count
       }
     } else {
-    setStreakCount(0); // Reset streak count on wrong answer
-    setWrongAnswersCount(wrongAnswersCount + 1);
-  }
+      setStreakCount(0); // Reset streak count on wrong answer
+      setWrongAnswersCount(wrongAnswersCount + 1);
+    }
     setTimeout(() => {
       if (isCorrect) {
         const nextRemainingKeys = remainingKeys.filter(
@@ -171,7 +168,7 @@ const getRandomSynonyms = (correctSynonyms) => {
     }
   };
   const progressBarHeight = `${(score / initialShuffledKeys.length) * 100}%`;
-    const progressBarWidth = `${(score / initialShuffledKeys.length) * 100}%`;
+  const progressBarWidth = `${(score / initialShuffledKeys.length) * 100}%`;
   const wrongProgressBarHeight = `${
     (wrongAnswersCount / initialShuffledKeys.length) * 100
   }%`;
@@ -199,7 +196,7 @@ const getRandomSynonyms = (correctSynonyms) => {
           ></div>
         </div>
       </div>
-      <h3>DAY 04</h3>
+      <h3>Basic08-Magoosh</h3>
       <div className="sentence">
         {currentWord ? (
           <>
