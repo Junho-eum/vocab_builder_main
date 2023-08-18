@@ -91,7 +91,7 @@ const BlankSentences = {
     sentence:"The clowns antic act was too extreme for the youngest children, who left the room in tears",
     synonyms: ["이상한", "기괴한"],
   },
-  ravenous: {
+  revenous: {
     sentence: "After the long hike, the hikers were ravenous and ate everything in sight.",
     synonyms: ["굶주린", "허기진"],
   },
@@ -119,7 +119,58 @@ const BlankSentences = {
     sentence: "The enmity between the two rival gangs was so strong that they would fight on sight.",
     synonyms: ["적대감", "원한"],
   },
-
+  appropriate: {
+    sentence: "The government appropriated land that was occupied by squatters.",
+    synonyms: ["배당하다", "뺴앗다"],
+  },
+  decry: {
+    sentence: "The politician decried the actions of his opponent.",
+    synonyms: ["비난하다", "공격하다"],
+  },
+  contentious: {
+    sentence: "The contentious issue of abortion divided the country.",
+    synonyms: ["논쟁적인", "다투기 좋아하는"],
+  },
+  bleak: {
+    sentence: "The future of the company looked bleak after the stock price fell.",
+    synonyms: ["암울한", "희망없는"],
+  },
+  meander: {
+    sentence: "The river meandered through the valley.",
+    synonyms: ["구불구불하게 흐르다", "보행하다"],
+  },
+  modicum: {
+    sentence: "If my sister had even a modicum of sense, she wouldn't be engaged to that loser.",
+    synonyms: ["소량", "조금"],
+  },
+  invioble: {
+    sentence: "To many the grass at Wimbledon is inviolable and only greater tennis players are able to play there.",
+    synonyms: ["침범할 수 없는", "신성한"],
+  },
+  tyro: {
+    sentence: "The tyro was nervous about his first day on the job.",
+    synonyms: ["초보자", "신참"],
+  },
+  despot: {
+    sentence: "The despot ruled his country with an iron fist.",
+    synonyms: ["독재자", "폭군"],
+  },
+  tyrant: {
+    sentence: "The tyrant ruled his country with an iron fist.",
+    synonyms: ["독재자", "폭군"],
+  },
+  expunge: {
+    sentence: "The judge expunged the criminal's record after he completed his sentence.",
+    synonyms: ["삭제하다", "지우다"],
+  },
+  ossify: {
+    sentence: "The company's rules were ossified and had not changed in over 50 years.",
+    synonyms: ["경직시키다", "뼈로 되다"],
+  },
+  loath: {
+    sentence: "The child was loath to go to bed early.",
+    synonyms: ["마지못해하는", "꺼리는"],
+  },
 };
 
 
