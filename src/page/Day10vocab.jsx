@@ -89,7 +89,7 @@ const BlankSentences = {
     synonyms: ["innocence", "simplicity"],
   },
   bemoan: {
-    setence:
+    sentence:
       "While the CFO carefully explained all the reasons for the cuts in benefits, after the meeting employees could be heard bemoaning the loss of their free gym membership.",
     synonyms: ["한탄하다", "lament"],
   },
