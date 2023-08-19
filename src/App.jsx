@@ -11,6 +11,7 @@ import Day8vocab from "./page/Day8vocab";
 import Day9vocab from "./page/Day9vocab";
 import Day10vocab from "./page/Day10vocab";
 import Day11vocab from "./page/Day11vocab";
+import Day12vocab from "./page/Day12vocab";
 
 const BlankSentences = {
   aberrant: {
@@ -246,6 +247,7 @@ const getRandomSynonyms = (correctSynonyms) => {
           <Link to="/day9">Day 6</Link>
           <Link to="/day10">Day 7</Link>
           <Link to="/day11">Day 8</Link>
+          <Link to="/day12">Day 9</Link>
         </nav>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div className="progress-container">
@@ -321,6 +323,7 @@ const getRandomSynonyms = (correctSynonyms) => {
         <Route path="/day9" element={<Day9vocab />} />
         <Route path="/day10" element={<Day10vocab />} />
         <Route path="/day11" element={<Day11vocab />} />
+        <Route path="/day12" element={<Day12vocab />} />
         {/* Add other routes for other vocab days here */}
       </Routes>
     </Router>
