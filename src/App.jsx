@@ -28,7 +28,7 @@ const BlankSentences = {
       "If my sister had even a modicum of sense, she wouldn't be engaged to that loser.",
     synonyms: ["소량", "조금"],
   },
-  inviolable: {
+  invioble: {
     sentence:
       "To many the grass at Wimbledon is inviolable and only greater tennis players are able to play there.",
     synonyms: ["침범할 수 없는", "신성한"],
@@ -133,6 +133,10 @@ const BlankSentences = {
   inure: {
     sentence:"The soldiers were inured to the hardships of war.",
     synonyms: ["익숙하게 하다", "관습에 익숙하게 하다"],
+  },
+  stymie: {
+    sentence:"The company's growth was stymied by a sluggish economy.",
+    synonyms: ["방해하다", "좌절시키다"],
   },
 };
 
