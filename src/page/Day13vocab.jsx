@@ -117,7 +117,7 @@ const BlankSentences = {
     sentence:"The politician was discomfited by the reporter's questions.",
     synonyms: ["당황하게 하다", "당황하게 하다"],
   },
-  disenfracnise: {
+  disenfrancise: {
     sentence:"The new law disenfranchised many voters.",
     synonyms: ["권리를 박탈하다", "권리를 박탈하다"],
   },
