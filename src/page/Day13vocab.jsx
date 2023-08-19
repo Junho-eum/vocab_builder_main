@@ -295,7 +295,7 @@ function Day13vocab() {
           ></div>
         </div>
       </div>
-      <h3>intermed3-Magoosh</h3>
+      <h3>intermed5-Magoosh</h3>
       <div className="sentence">
         {currentWord ? (
           <>
