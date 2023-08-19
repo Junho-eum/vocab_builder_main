@@ -14,94 +14,125 @@ import Day11vocab from "./page/Day11vocab";
 import Day12vocab from "./page/Day12vocab";
 
 const BlankSentences = {
-  aberrant: {
-    sentence: "his rages and aberrant behavior worsened",
-    synonyms: ["deviant", "unusual"],
-  },
-  paradoxical: {
-    sentence: "Jansens writing strikes many as paradoxical",
-    synonyms: ["contradictory", "inconsistent"],
-  },
-  recondite: {
+  bleak: {
     sentence:
-      "for one who is capable of enduing even the most recondite topics with a(n) breezy tone",
-    synonyms: ["abstruse", "obscure"],
+      "The future of the company looked bleak after the stock price fell.",
+    synonyms: ["암울한", "희망없는"],
   },
-  miser: {
-    sentence: "the old miser hid his money in a sock under his bed",
-    synonyms: ["hoarder", "scrooge"],
+  meander: {
+    sentence: "The river meandered through the valley.",
+    synonyms: ["구불구불하게 흐르다", "보행하다"],
   },
-  decorum: {
-    sentence: "he had no idea of funeral decorum",
-    synonyms: ["propriety", "etiquette"],
-  },
-  benign: {
+  modicum: {
     sentence:
-      "I remember my grandfather's face was wrinklend, benign, and calm",
-    synonyms: ["harmless", "gentle"],
+      "If my sister had even a modicum of sense, she wouldn't be engaged to that loser.",
+    synonyms: ["소량", "조금"],
   },
-  docile: {
-    sentence: "Barbara had always been so docile and obedient",
-    synonyms: ["submissive", "compliant"],
-  },
-  hamper: {
-    sentence: "their work is hampered by lack of funds",
-    synonyms: ["hinder", "obstruct"],
-  },
-  whimsical: {
-    sentence: "a whimsical sense of humor",
-    synonyms: ["fanciful", "playful"],
-  },
-  dupe: {
-    sentence: "he was duped by a con artist",
-    synonyms: ["deceive", "trick"],
-  },
-  swindle: {
-    sentence: "a businessman swindled investors out of millions of dollars",
-    synonyms: ["cheat", "defraud"],
-  },
-  veritable: {
-    sentence: "a veritable expert",
-    synonyms: ["genuine", "real"],
-  },
-  banality: {
-    sentence: "the banality of evil",
-    synonyms: ["triteness", "ordinariness"],
-  },
-  haphazard: {
+  invioble: {
     sentence:
-      "the kitchen drawers contained a haphazard collection of silver souvenir spoons",
-    synonyms: ["random", "disorganized"],
+      "To many the grass at Wimbledon is inviolable and only greater tennis players are able to play there.",
+    synonyms: ["침범할 수 없는", "신성한"],
   },
-  equivocate: {
-    sentence: "the officials evaded the reporters' questions by equivoating",
-    synonyms: ["prevaricate", "dodge"],
+  loath: {
+    sentence: "The child was loath to go to bed early.",
+    synonyms: ["마지못해하는", "꺼리는"],
   },
-
-  unassailable: {
-    sentence: "Professor Williams' theories are unassailable",
-    synonyms: ["unquestionable", "indisputable"],
-  },
-  muted: {
-    sentence: "the muted colors of an English landscape",
-    synonyms: ["subdued", "soft"],
-  },
-  thwart: {
-    sentence: "The road work is intended to thwart future traffic jams",
-    synonyms: ["prevent", "stop"],
-  },
-  spartan: {
-    sentence: "the room was furnished with a Spartan simplicity",
-    synonyms: ["austere", "plain"],
-  },
-  corroborate: {
+  resignation: {
     sentence:
-      "The police believed his story because it was corroborated by several witnesses.",
-    synonyms: ["confirm", "verify"],
+      "Since Jack could not think of a convincing excuse for missing the final exam, he accepted his fate with resignation.",
+    synonyms: ["사직", "사퇴"],
   },
-  badger: {
-    sentence: "Grandpa's dog will badger you until you throw the stick for him.",
-    synonyms: ["pester", "bother"],
+  impregnable: {
+    sentence: "The castle's walls were impregnable.",
+    synonyms: ["무적의", "파괴할 수 없는"],
+  },
+  flag: {
+    sentence:
+      "After the three crushing defeats in the last three games, the team's spirit began to flag.",
+    synonyms: ["흐느적거리다", "흐느끼다"],
+  },
+  disinterested: {
+    sentence:
+      "The judge was completely disinterested in the defendant's sob story.",
+    synonyms: ["공정한", "편견없는"],
+  },
+  hubris: {
+    sentence:
+      "The mayor's hubris was evident when he decided to build a monument to himself.",
+    synonyms: ["자만심", "오만함"],
+  },
+  epigram: {
+    sentence:
+      "The epigram was so well written that it was quoted by many people.",
+    synonyms: ["경구", "경구체"],
+  },
+  endemic: {
+    sentence: "The disease is endemic to the tropics.",
+    synonyms: ["풍토병의", "풍토병"],
+  },
+  grandiloquent: {
+    sentence:
+      "The politician's grandiloquent speech did not impress his constituents.",
+    synonyms: ["과장된", "장황한"],
+  },
+  ingenuity: {
+    sentence:
+      "The ingenuity of the software developers is evident in the latest version of the app.",
+    synonyms: ["독창성", "기발함"],
+  },
+  becoming: {
+    sentence: "The dress was becoming on her.",
+    synonyms: ["어울리는", "잘 어울리는"],
+  },
+  apprehension: {
+    sentence: "Test day can be a time of great apprehension for many students.",
+    synonyms: ["걱정", "불안"],
+  },
+  truculence: {
+    sentence:
+      "The truculence of the dictator was evident in his refusal to negotiate.",
+    synonyms: ["폭력성", "거침"],
+  },
+  antedate: {
+    sentence:
+      "The discovery of ancient tools antedates the arrival of humans in the Americas.",
+    synonyms: ["~보다 먼저 일어나다", "~보다 앞서다"],
+  },
+  vindicative: {
+    sentence: "The vindictive child broke his sister's doll.",
+    synonyms: ["복수심이 강한", "앙심을 품은"],
+  },
+  celerity: {
+    sentence:"The celerity with which the police responded to the bank robbery prevented the thieves from escaping.",
+    synonyms: ["민첩함", "빠름"],
+  },
+  malinger: {
+    sentence: "The soldier malingered in order to avoid combat.",
+    synonyms: ["꾀병을 부리다", "꾀병을 부리다"],
+  },
+  epiphany: {
+    sentence:"The scientist had an epiphany that led to a major breakthrough in his research.",
+    synonyms: ["통찰", "깨달음"],
+  },
+  illustrious: {
+    sentence:"The illustrious scientist won the Nobel Prize for his work.",
+    synonyms: ["저명한", "명성있는"],
+  },
+  malodorous: {
+    sentence:"The malodorous smell of the garbage was overwhelming.",
+    synonyms: ["악취가 나는", "냄새나는"],
+  },
+  trite: {
+    sentence:"The trite saying, 'Actions speak louder than words,' is often true.",
+    synonyms: ["진부한", "진부한"],
+  },
+  tempestuous: {
+    sentence:"Chuck and Sarah had a tempestuous relationship.",
+    synonyms: ["폭풍우의", "굉장히 감정이 격한"],
+  },
+  inure: {
+    sentence:"The soldiers were inured to the hardships of war.",
+    synonyms: ["익숙하게 하다", "관습에 익숙하게 하다"],
   },
 };
 
