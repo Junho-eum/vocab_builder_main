@@ -28,7 +28,7 @@ const BlankSentences = {
       "If my sister had even a modicum of sense, she wouldn't be engaged to that loser.",
     synonyms: ["소량", "조금"],
   },
-  invioble: {
+  inviolable: {
     sentence:
       "To many the grass at Wimbledon is inviolable and only greater tennis players are able to play there.",
     synonyms: ["침범할 수 없는", "신성한"],
