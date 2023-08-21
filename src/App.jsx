@@ -13,6 +13,7 @@ import Day10vocab from "./page/Day10vocab";
 import Day11vocab from "./page/Day11vocab";
 import Day12vocab from "./page/Day12vocab";
 import Day13vocab from "./page/Day13vocab";
+import Day14vocab from "./page/Day14vocab";
 
 const BlankSentences = {
   bleak: {
@@ -285,6 +286,7 @@ const getRandomSynonyms = (correctSynonyms) => {
           <Link to="/day11">Day 8</Link>
           <Link to="/day12">Day 9</Link>
           <Link to="/day13">Day 10</Link>
+          <Link to="/day14">Day 11</Link>
         </nav>
         <div style={{ display: "flex", alignItems: "center" }}>
           <div className="progress-container">
@@ -362,6 +364,7 @@ const getRandomSynonyms = (correctSynonyms) => {
         <Route path="/day11" element={<Day11vocab />} />
         <Route path="/day12" element={<Day12vocab />} />
         <Route path="/day13" element={<Day13vocab />} />
+        <Route path="/day14" element={<Day14vocab />} />
         {/* Add other routes for other vocab days here */}
       </Routes>
     </Router>
